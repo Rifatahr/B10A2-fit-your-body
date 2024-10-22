@@ -1,3 +1,13 @@
 @media screen and (max-width:767px) {
+   
+    .nav-options{
+        display: none;
+    }
+    .hum-burger{
+        display: block;
+        color: white;
+        font-size: 2rem;
+    }
+    
     
 }
