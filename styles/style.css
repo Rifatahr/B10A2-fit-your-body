@@ -285,3 +285,17 @@ main{
 }
 
 /* Run Style End */
+
+
+/* BMI Calculator style Start */
+.bmi-title{
+    width:55%;
+    margin: auto;
+    padding-top: 5rem ;
+    padding-bottom: 3rem ;
+}
+.bmi-title h3{
+    padding-bottom: 0.8rem;
+}
+
+/* BMI Calculator style End */
