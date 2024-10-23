@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MonteCarlo&display=swap');
 
-
-
 *{
     padding: 0;
     margin: 0;
@@ -34,7 +32,16 @@ body {
     font-size: 1rem;
     font-weight: 500;
 }
-
+.third-btn{
+    width: 14rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 2.5rem;
+    color: white;
+    background: rgb(230, 83, 60);
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 
 /* shared Styles End*/
@@ -44,9 +51,6 @@ body {
     max-width: 100%;
     background-image:  linear-gradient( rgb(17, 17, 17,0.9),rgba(119, 119, 119, 0.3) , rgb(17, 17, 17,0.9));
     background-color: black;
-
-    
-
 }
 
 
@@ -190,7 +194,94 @@ body {
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
 }
-
+.red-ball{
+    display: none;
+}
 /* banner container Ends */
 
+/* Habit style start */
+main{
+    display: 100%;
+    background-color: black;
+    padding-top: 6.25rem;
+}
 
+.habit-container{
+    width: 75%;
+    margin: 0 auto;
+
+}
+.habit-card-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem auto;
+    margin-top: 4rem;
+}
+.habit-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.habit-title p{
+    margin: 1rem;
+}
+.headeing-h6{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+ 
+}
+.havit-card{
+    width: 15rem;
+    height: 20rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    /* padding-bottom: 2rem ; */
+}
+.havit-card img{
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+/* Habit style End */
+
+
+/* Run Style start */
+
+.run-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    gap: 10rem;
+    border-radius: 1.125rem;
+    background: rgb(34, 34, 34);
+    padding: 2rem;
+}
+.run-title{
+    width: 37.5%;
+    padding-left: 3rem;
+}
+.run-title h3,p{
+    padding-bottom: 1.5rem;
+}
+.run-img{
+    width: 37.5%;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 1.125rem;
+    object-fit: none;
+    object-position: 70% 30%;
+}
+
+/* Run Style End */
