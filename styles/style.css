@@ -6,37 +6,67 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 body {
     font-family: "Inter", sans-serif;
     /* font-family: "MonteCarlo", cursive; */
 }
 
+/* shared Styles start*/
+
 .primary-p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
 }
+.primary-h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.primary-btn{
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 2.5rem;
+    color: white;
+    background: rgb(230, 83, 60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+/* shared Styles End*/
+
+
+.header{
+    max-width: 100%;
+    background-image:  linear-gradient( rgb(17, 17, 17,0.9),rgba(119, 119, 119, 0.3) , rgb(17, 17, 17,0.9));
+    background-color: black;
+
+    
+
+}
 
 
 /* nav container start */
 .nav-bar{
-    width: 90%;
-    margin: 3rem auto;
+    width: 75%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 9rem;
 }
 .nav-options{
     width: 26rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2.5rem;
-    padding: 0.3rem; 
+    padding: 0.2rem; 
 }
 .nav-options ul{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 3rem;
     font-size: 1rem;
@@ -48,8 +78,8 @@ body {
 }
 .fitness{
     color: rgb(230, 83, 60);
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.25rem;
+    font-weight: 800;
 }
 .home-btn{
     padding: 0.5rem 1.25rem;
@@ -62,3 +92,105 @@ body {
 }
 
 /* nav container End */
+
+
+/* banner container start */
+.banner-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 auto;
+
+}
+
+.banner-title-section h1{
+    font-size: 4.9rem;
+    font-weight: 900;
+    color: white;
+}
+.banner-title-section p{
+    margin: 1.75rem 0;
+}
+.italic-type-font{
+    font-family: "MonteCarlo", cursive;
+    font-size: 4rem;
+}
+.secondary-btn{
+    border: 1px solid white;
+    padding: 1rem 2.5rem;
+    border-radius: 2.5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2rem 1rem;
+    background: none;
+}
+
+.banner-img-section{
+    position: relative;
+    margin-right: 4rem;
+}
+
+.banner-img-section img{
+    width: 100%;
+    object-fit: cover;
+ 
+}
+.blur-card{
+    width: 12.5rem;
+    height: 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0.85rem;
+    backdrop-filter: blur(1rem);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+.blur-card h2{
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: white;
+}
+
+#card-1{
+    position: absolute;
+    bottom: 55%;
+    left: 60%;
+}
+#card-2{
+    width: 12.5rem;
+    height: 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0.85rem;
+    backdrop-filter: blur(1rem);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 70%;
+    right: 70%;
+}
+#card-2 h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+.small-red-circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+
+/* banner container Ends */
+
+
