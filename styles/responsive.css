@@ -131,5 +131,21 @@
         width: 80%;
         margin-bottom: 2rem;
     }
+    .team-container{
+        width: 90%;
+        padding: 3rem 0; 
+     }
+     .team-title{
+        width: 90%;  
+        margin-bottom: 2rem;
+    }
+    .team-img-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-img-section img{
+        height: 20rem;   
+    }
 
 }
