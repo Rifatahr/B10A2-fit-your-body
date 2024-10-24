@@ -147,5 +147,22 @@
     .team-img-section img{
         height: 20rem;   
     }
+    .footer-details{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .fitness-section{
+        width: 90%;
+    }
+    .fitness-section p{
+        margin: 0.5rem  0;
+        font-size: 0.8rem;
+    }
+    .footer-p{
+        width: 90%;
+        font-size: 1rem;
+        margin: 0 ;
+    }
 
 }
