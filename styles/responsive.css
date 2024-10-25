@@ -164,5 +164,53 @@
         font-size: 1rem;
         margin: 0 ;
     }
+    .my-container{
+        width: 90%;
+    }
+    .my-container-content{
+        flex-direction: column;
+    }
+    .content-img {
+        width: 100%;
+        margin-top: 2rem;
+        gap: 1.5rem;
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+    .down-img{
+        margin-top:0rem;
+        width: 40%;
+    }
+    
+    .up-img{
+        margin-bottom:0rem;
+        width: 40%;
+    }
+    .content-img img{
+       object-fit: cover;
+    }
+    .content{
+        width: 80%;
+        align-items: center;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .content-title h3{
+        font-size: 2rem;
+        color: white;
+    }
+    .sponsors-name{
+        font-size: 1.5rem;
+        font-weight: 800;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+        padding-bottom: 3rem;
+    }
 
 }

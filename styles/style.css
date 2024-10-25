@@ -31,6 +31,7 @@ body {
     background: rgb(230, 83, 60);
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
 .third-btn{
     width: 14rem;
@@ -42,6 +43,7 @@ body {
     font-size: 1rem;
     font-weight: 500;
     margin: 1rem 0 2rem;
+    cursor: pointer;
 }
 
 
@@ -91,6 +93,7 @@ body {
     border-radius: 3rem;
     background: rgb(230, 83, 60);
     font-weight: 600;
+    cursor: pointer;
 }
 .hum-burger{
     display: none;
@@ -131,6 +134,7 @@ body {
     font-weight: 500;
     margin: 2rem 1rem;
     background: none;
+    cursor: pointer;
 }
 
 .banner-img-section{
@@ -161,6 +165,7 @@ body {
     font-size: 2.75rem;
     font-weight: 900;
     color: white;
+    margin-top: 1rem;
 }
 
 #card-1{
@@ -449,6 +454,95 @@ option{
 
 /* my container style start */
 
+.my-choise{
+    width: 100%;
+    background-color: black;
+    padding-bottom: 5rem;
+
+}
+.my-container{
+    width: 75%;
+    margin: 0 auto;
+    background-image: linear-gradient( rgba(17, 17, 17,0.9),rgba(119, 119, 119, 0.3),  rgb(17, 17, 17,0.9) );
+    border-radius: 1.2rem;
+
+}
+.my-container-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-img {
+    width: 50%;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.content-img img{
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(185, 78, 59, 0.5);
+}
+.down-img{
+    margin-top:5rem;
+}
+
+.up-img{
+    margin-bottom:5rem;
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+ 
+}
+
+.content-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.content-title h3{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.happy-client{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.happy-client h3{
+    font-size: 2rem;
+}
+.sponsors{
+    color: white;
+    margin: 2rem auto;
+    text-align: center;
+}
+.sponsors h5{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.sponsors-name{
+    font-size: 1.5rem;
+    font-weight: 800;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    padding-bottom: 3rem;
+}
+.sponsors-name span:hover{
+    cursor: pointer;
+    color: rgb(230, 83, 60,0.8);
+}
+
 /* my container style End */
 
 
@@ -500,7 +594,7 @@ option{
 }
 .link-a a{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -516,7 +610,7 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.5rem;
     font-weight: 400;
-    margin: 0 auto;
+    margin: 2rem auto;
     text-align: center;
 }
 
